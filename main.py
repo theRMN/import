@@ -1,6 +1,6 @@
 from application.salary import rr
-from application.db.people import pp
+from application.db import people
 
 if __name__ == '__main__':
     rr()
-    pp()
+    people.pp()
